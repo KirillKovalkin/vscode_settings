@@ -1,0 +1,14 @@
+{   
+    "python.languageServer": "Pylance",
+    "workbench.colorTheme": "Dracula Theme",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "files.autoSave": "afterDelay",
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.ignoreSelection": true,
+    "editor.minimap.enabled": false,
+    "python.testing.autoTestDiscoverOnSaveEnabled": false,
+    "code-runner.runInTerminal": true,
+}
