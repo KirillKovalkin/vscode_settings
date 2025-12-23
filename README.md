@@ -1,4 +1,4 @@
 # vscode_settings
 This is my vscode settings
 
-check
+check before reboot
