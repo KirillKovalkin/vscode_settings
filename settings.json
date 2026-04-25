@@ -1,8 +1,7 @@
-{   
+{
     "python.languageServer": "Pylance",
     "workbench.colorTheme": "Dracula Theme",
     "workbench.iconTheme": "material-icon-theme",
-    "editor.defaultFormatter": "ms-python.black-formatter",
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
     "files.autoSave": "afterDelay",
@@ -13,4 +12,37 @@
     "code-runner.runInTerminal": true,
     "editor.fontFamily": "JetBrainsMonoNL Nerd Font Mono, JetBrainsMonoNL Nerd Font, monospace",
     "terminal.integrated.fontFamily": "JetBrainsMonoNL Nerd Font Mono",
+    "editor.guides.bracketPairs": "active",
+    "editor.guides.highlightActiveIndentation": "always",
+    "editor.stickyScroll.enabled": true,
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.codeActionsOnSave": {
+            "source.organizeImports.ruff": "explicit"
+        }
+    },
+    "ruff.configuration": {
+        "lint": {
+            "select": [
+                "E",
+                "W",
+                "F",
+                "I",
+                "N",
+                "UP",
+                "PT",
+                "B",
+                "SIM"
+            ],
+            "pep8-naming": {
+                "extend-ignore-names": [
+                    "EC"
+                ]
+            }
+        },
+        "format": {
+            "quote-style": "double"
+        },
+        "line-length": 88
+    }
 }
