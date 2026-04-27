@@ -14,4 +14,3 @@ code --install-extension charliermarsh.ruff
 rm ~/.config/Code/User/settings.json
 cp settings.json ~/.config/Code/User/
 chmod 644 ~/.config/Code/User/settings.json
-cp
