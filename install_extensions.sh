@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-code --install-extension augment.vscode-augment
+code --install-extension Continue.continue
 code --install-extension formulahendry.code-runner
 code --install-extension dracula-theme.theme-dracula
 code --install-extension usernamehw.errorlens
