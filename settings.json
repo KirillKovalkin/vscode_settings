@@ -1,6 +1,6 @@
 {
     "python.languageServer": "Pylance",
-    "workbench.colorTheme": "Dracula Theme",
+    "workbench.colorTheme": "Catppuccin Mocha",
     "workbench.iconTheme": "material-icon-theme",
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
